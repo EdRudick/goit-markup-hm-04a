@@ -1,0 +1,459 @@
+:root {
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    --primary-text-color: #434455;
+    --primary-white-color: #ffffff;
+    --accent-color: #404bbf;
+    --secondary-background-color: #2E2F42;
+    --team-background-color: #F4F4FD;
+    --btn-color: #4D5AE5;
+    --btns-color: #E7E9FC;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary-text-color);
+    background-color: var(--primary-white-color);
+}
+
+.container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*HEADER*/
+.page-header {
+    border-bottom: 1px solid var(--btns-color);
+}
+
+.page-header-container {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+
+.page-navigation-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: auto;
+}
+
+.logo-container {
+    margin-left: auto;
+    margin-right: 76px;
+}
+
+.logo {
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--btn-color);
+}
+
+.logo-studio {
+    color: var(--secondary-background-color);
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 40px;
+
+}
+
+.menu-item:hover,
+.menu-item:focus {
+    color: var(--accent-color);
+}
+
+.menu-item {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--secondary-background-color);
+}
+
+.menu-item-container {
+    display: block;
+    padding: 24px 0;
+    color: var(--primary-text-color);
+}
+
+.address-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.address {
+    font-style: normal;
+    font-style: normal;
+
+}
+
+.address-item:hover,
+.address-item:focus {
+    color: var(--accent-color);
+}
+
+.address-item {
+    list-style: none;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+.main-section {
+    background-color: var(--secondary-background-color);
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ms-container {
+    padding: 188px 0;
+}
+
+.title-container {
+    max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    width: 496px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--primary-white-color);
+}
+
+.button-container {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    min-width: 169px;
+    height: 56px;
+    flex-direction: row;
+    margin-top: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    border: none;
+}
+
+.button {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--primary-white-color);
+    background-color: var(--btn-color);
+    cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+    background-color: var(--accent-color);
+}
+
+.principles-section {
+    padding: 120px 0;
+}
+
+.section-title {
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.principles-container {
+    display: flex;
+    gap: 24px;
+}
+
+.tp-container {
+    width: calc((100% - 72px) / 4);
+}
+
+.top-container {
+    margin-bottom: 8px;
+}
+
+.top-principles {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--secondary-background-color);
+}
+
+.principle-descript {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+.title-section {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    max-width: 323;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--secondary-background-color);
+}
+
+.proect-section {
+    padding-bottom: 120px;
+}
+
+.proect-section-container {
+    flex-direction: column;
+    align-items: center;
+}
+
+.ts-container {
+    margin-bottom: 72px;
+}
+
+.proect-container {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.img-proect-container {
+    display: flex;
+    width: calc((100% - 48px) / 3);
+}
+
+.team-section {
+    padding: 120px 0;
+    background-color: var(--team-background-color);
+}
+
+.title-section-team {
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--secondary-background-color);
+}
+
+.team-item-container {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.img-container {
+    width: calc((100% - 72px) / 4);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.img {
+    background-color: var(--primary-white-color);
+}
+
+.worker {
+    padding: 32px 16px;
+    text-align: center;
+}
+
+.ne-container {
+    margin-bottom: 8px;
+}
+
+.name-emp {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--secondary-background-color);
+}
+
+.team-descript {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+.social-list-icon {}
+
+.logo-foot-studio {
+    color: var(--team-background-color);
+}
+
+/*portfolio*/
+.buttons-menu-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
+
+.buttons-container {
+    padding: 12px 24px;
+    width: auto;
+    height: 48px;
+    border: 1px solid var(--btns-color);
+    border-radius: 4px;
+}
+
+.buttons-container:hover,
+.buttons-container:focus {
+    border: 1px solid transparent;
+}
+
+.buttons {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--btn-color);
+    background-color: var(--team-background-color);
+    cursor: pointer;
+}
+
+.buttons-container:hover,
+.buttons-container:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+.main-container {
+    padding: 96px 0 120px;
+}
+
+.porto-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 24px;
+    row-gap: 48px;
+    flex-wrap: wrap;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.nm-container {
+    margin-bottom: 8px;
+}
+
+.ndp-container {
+    border: 1px solid var(--btns-color);
+    border-top: none;
+    padding: 32px 16px;
+}
+
+.name-porto {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--secondary-background-color);
+}
+
+.descript-porto {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+/*footer*/
+.footer {
+    background-color: var(--secondary-background-color);
+    width: 1440px;
+    height: 312px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px 0;
+}
+
+.logo-foot-container {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.logo-foot-studio {
+    color: var(--team-background-color);
+}
+
+.footer-descript {
+    max-width: 264px;
+    color: var(--team-background-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
