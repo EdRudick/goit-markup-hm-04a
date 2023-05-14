@@ -529,11 +529,12 @@ body {
 
 /*footer*/
 .footer {
+    align-items: baseline;
     background-color: var(--secondary-background-color);
     width: 1440px;
     height: 312px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 120px;
     padding: 100px 0;
 }
 
@@ -569,7 +570,9 @@ body {
 .media-list {
     font-size: 16px;
     font-weight: 500;
-    color: var(--btns-color);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-white-color);
     margin-bottom: 16px;
     max-width: 96px;
 }
