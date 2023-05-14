@@ -10,8 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Raleway:wght@800&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css"
-        integrity="sha512-Y0MM+V6ymRKN2zStTqzQ227DWhhp4Mzdo6gnlRnuaNCbc+YN/ZH0sBCLTM4M0oSy9c9VKiCvd4Jk44aCLrNS5Q=="
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
@@ -54,10 +54,12 @@
                 <h2 class="section-title visually-hidden">Our principles</h2>
                 <ul class="list principles principles-container">
                     <li class="tp-container">
-                        <svg class="icon-princ-container" aria-label="logo strategy">
-                            <use class="icon-princ" width="64" , height="64" href="./images/icons.svg#icon-antenna">
-                            </use>
-                        </svg>
+                        <div class="icon-container">
+                            <svg class="icon-princ-container" aria-label="logo strategy">
+                                <use class="icon-princ" width="64" , height="64" href="./images/icons.svg#icon-antenna">
+                                </use>
+                            </svg>
+                        </div>
                         <h3 class="top-principles top-container">Strategy</h3>
                         <p class="principle-descript">Our goal is to identify the business
                             problem to walk away with the
@@ -65,22 +67,26 @@
                         </p>
                     </li>
                     <li class="tp-container">
-                        <svg class="icon-princ-container">
-                            <use class="icon-princ" width="64" , height="64" href="./images/icons.svg#icon-clock"
-                                aria-label="logo punctuality">
-                            </use>
-                        </svg>
+                        <div class="icon-container">
+                            <svg class="icon-princ-container">
+                                <use class="icon-princ" width="64" , height="64" href="./images/icons.svg#icon-clock"
+                                    aria-label="logo punctuality">
+                                </use>
+                            </svg>
+                        </div>
                         <h3 class="top-principles top-container">Punctuality</h3>
                         <p class="principle-descript">Bring the key message to the brand's audience for the best price
                             within the shortest possible
                             time.</p>
                     </li>
                     <li class="tp-container">
-                        <svg class="icon-princ-container">
-                            <use class="icon-princ" width="64" , height="64" href="./images/icons.svg#icon-diagram"
-                                aria-label="logo diligence">
-                            </use>
-                        </svg>
+                        <div>
+                            <svg class="icon-princ-container">
+                                <use class="icon-princ" width="64" , height="64" href="./images/icons.svg#icon-diagram"
+                                    aria-label="logo diligence">
+                                </use>
+                            </svg>
+                        </div>
                         <h3 class="top-principles top-container">Diligence</h3>
                         <p class="principle-descript">Research and confirm brands that present the strongest digital
                             growth
@@ -88,11 +94,13 @@
                             risk.</p>
                     </li>
                     <li class="tp-container">
-                        <svg class="icon-princ-container">
-                            <use class="icon-princ" width="64" , height="64" href="./images/icons.svg#icon-astronaut"
-                                aria-label="logo diligence">
-                            </use>
-                        </svg>
+                        <div>
+                            <svg class="icon-princ-container">
+                                <use class="icon-princ" width="64" , height="64"
+                                    href="./images/icons.svg#icon-astronaut" aria-label="logo diligence">
+                                </use>
+                            </svg>
+                        </div>
                         <h3 class="top-principles top-container">Technologies</h3>
                         <p class="principle-descript">Design practice focused on digital experiences. We bring forth a
                             deep

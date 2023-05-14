@@ -230,10 +230,18 @@ body {
     margin: -1px;
 }
 
-.icon-princ-container {
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: var(--team-background-color);
-    width: 264px;
     height: 112px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+.icon-princ-container {
+
     display: flex;
     justify-content: center;
     align-items: center;
