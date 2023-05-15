@@ -447,7 +447,7 @@ body {
 .customs-list-link:hover,
 .customs-list-link:focus {
     color: #404bbf;
-    background-color: #404bbf;
+    border-color: #404bbf;
 }
 
 .customs-list-icon {
@@ -608,5 +608,5 @@ body {
 
 .social-list-link-footer:hover,
 .social-list-link-footer:focus {
-    background-color: var(--#31d0aa);
+    background-color: #31d0aa;
 }
