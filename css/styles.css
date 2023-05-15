@@ -555,14 +555,14 @@ body {
     display: flex;
     align-items: baseline;
     background-color: var(--secondary-background-color);
-    width: 1440px;
     height: 312px;
-    margin-left: auto;
     padding: 100px 0;
 }
 
 .footer-container1 {
+    margin-left: 0;
     margin-right: 120px;
+    max-width: 450px;
 }
 
 .logo-foot-container {
