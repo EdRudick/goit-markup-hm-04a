@@ -8,6 +8,7 @@
     --team-background-color: #F4F4FD;
     --btn-color: #4D5AE5;
     --btns-color: #E7E9FC;
+    --customs-icon-color: #8e8f99;
 }
 
 .list {
@@ -438,9 +439,19 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--primary-white-color);
+    color: var(--customs-icon-color);
     border: 1px solid #8E8F99;
     border-radius: 4px;
+}
+
+.customs-list-link:hover,
+.customs-list-link:focus {
+    color: #404bbf;
+    background-color: #404bbf;
+}
+
+.customs-list-icon {
+    fill: currentColor;
 }
 
 .logo-foot-studio {
