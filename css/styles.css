@@ -369,7 +369,8 @@ body {
 
 }
 
-.social-list-link:hover .social-list-link:focus {
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon {
     background-color: var(--accent-color);
 }
 
