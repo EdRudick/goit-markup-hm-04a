@@ -432,7 +432,7 @@ body {
     height: 88px;
 }
 
-.customs-list-icon {
+.customs-list-link {
     width: 100%;
     height: 100%;
     display: flex;
@@ -533,6 +533,7 @@ body {
 
 /*footer*/
 .footer {
+    display: flex;
     align-items: baseline;
     background-color: var(--secondary-background-color);
     width: 1440px;
@@ -542,12 +543,8 @@ body {
     padding: 100px 0;
 }
 
-.footer-container {
-    display: flex;
-    flex-direction: row;
-}
-
 .footer-container1 {
+    margin-right: 120px;
     max-width: 500px;
 }
 
