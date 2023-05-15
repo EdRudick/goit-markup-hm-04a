@@ -102,6 +102,7 @@ body {
     align-items: center;
     flex-direction: row;
     gap: 40px;
+
 }
 
 .menu-item:hover,
@@ -511,8 +512,13 @@ body {
     padding-right: 0;
 }
 
+.porto {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
 .img {
     display: block;
+    cursor: pointer;
 }
 
 .img:hover,
