@@ -543,6 +543,9 @@ body {
 
 /*footer*/
 .footer {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
     background-color: var(--secondary-background-color);
     padding: 100px 0;
 }
